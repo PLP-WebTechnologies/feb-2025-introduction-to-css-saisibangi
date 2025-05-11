@@ -1,29 +1,53 @@
-# Introduction to CSS
+/*This file is to be saved as style.css*/
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+#main-content {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
 
-## Instructions
+/* This section is for image styling.*/
+.image-container img {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    margin: 10px;
+    padding: 5px;
+}
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+/* Styling for Typography and color */
+p {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #555;
+}
+/*This is the html code for a file that will be saved as home.html*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Styled Page</h1>
+    </div>
+    <div id="main-content">
+        <p>This is a sample paragraph with a different font and color.</p>
+    </div>
+    <div class="image-container">
+        <img src="example1.jpg" alt="Styled Image">
+    </div>
+</body>
+</html>
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
